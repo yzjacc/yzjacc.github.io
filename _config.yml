@@ -4,7 +4,7 @@ SEOTitle: 于子俊的博客 | Monkey Blog
 header-img: img/home-bg.jpg
 email: yzjacc@gmail.com
 description: "关于程序与设计| Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @yzj 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+keyword: "于子俊, Monkey于子俊, Mon,于子俊的博客, Mon Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 猴"
 url: "https://china-12138.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -106,8 +106,8 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "Google",
+        href: "https://www.google.com/"
     },{
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
