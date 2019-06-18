@@ -1,6 +1,6 @@
-# Hux Blog
+# Monkey Blog
 
-### [View Live Hux Blog &rarr;](https://huangxuan.me)
+### [View Live Monkey Blog &rarr;](<https://china-12138.github.io/>)
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
