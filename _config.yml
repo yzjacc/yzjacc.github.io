@@ -13,10 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     yzjpro
-zhihu_username:     huxpro
 github_username:    China-12138
-twitter_username:   huxpro
+weibo_username:     yzjpro
+kongjian_username： 52891375
+# zhihu_username:     huxpro
+# twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -28,7 +29,8 @@ highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true                     
+ # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN  
 
@@ -78,7 +80,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Low Small while<br>前端 小白"
+sidebar-about-description: "The body is supported by a strong inner heart<br>"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
