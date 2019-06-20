@@ -1,9 +1,9 @@
 {
-    "name": "yzj-blog",
-    "title": "Yuzj Blog",
-    "author": "Yuzj <yzjacc@gmail.com>",
+    "name": "hux-blog",
+    "title": "Hux Blog",
+    "author": "Hux <huxpro@gmail.com>",
     "version": "1.7.0",
-    "homepage": "http://china-12138.github.io",
+    "homepage": "http://huxpro.github.io",
     "repository": {
         "type": "git",
         "url": "https://github.com/china-12138/china-12138.github.io"

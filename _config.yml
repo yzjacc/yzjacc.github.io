@@ -1,6 +1,6 @@
 # Site settings
-title: Yuzj Blog
-SEOTitle: 于子俊的博客 | Yuzj Blog
+title: Monkey Blog
+SEOTitle: 于子俊的博客 | Monkey Blog
 header-img: img/home-bg.jpg
 email: yzjacc@gmail.com
 description: "关于程序与设计| Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @yzj 的个人博客，与你一起发现更大的世界。"
@@ -12,12 +12,13 @@ baseurl: ""                             # for example, '/blog' if your blog host
 future: true
 
 # SNS settings
-RSS: flase
+RSS: false
 github_username:    China-12138
 weibo_username:     yzjpro
 # zhihu_username:     huxpro
 # twitter_username:   huxpro
-# linkedin_username:  firstname-lastname-idxxxx
+#facebook_username:  huxpro
+#linkedin_username:  firstname-lastname-idxxxx
 
 
 
@@ -100,9 +101,8 @@ page-mathjax: false
 
 
 
-# Related Links
-
-Related Links : [
+# Friends
+friends: [
     {
     #     title: "Su",
     #     href: "http://su.gallery/"
@@ -113,19 +113,7 @@ Related Links : [
         title: "JS MDN",
         href: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript"
     },{
-        title: "My Guitar",
-        href: "https://github.com/China-12138/Guitar"
-    },{
-        title: "My qqmusic",
-        href: "https://y.qq.com/n/m/detail/taoge/index.html?id=2251239107"
-    },{
         title: "W3School",
         href: "https://www.w3schools.com/"
-    },{
-        title: "Github",
-        href: "https://www.github.com/"
-    },{
-        title: "BaiDu",
-        href: "https://www.baidu.com/"
     }
 ]
