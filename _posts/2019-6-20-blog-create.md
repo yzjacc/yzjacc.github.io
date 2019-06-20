@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "「博客」博客说明文档？"
-subtitle: "Blog"
+title: "「博客」博客说明文档"
+subtitle: "NO1 Blog"
 author: "Yuzj"
 header-img: "img/post-bg-halting.jpg"
 header-mask: 0.3
 tags:
-
 - 博客搭建
 ---
 
@@ -227,6 +226,7 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
 ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+
 ```
 
 #### Customization
@@ -247,7 +247,7 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 
 #### SEO Title
 
-我的博客标题是 **“Yuzj Blog”** 但是我想要在搜索的时候显示 **“于子俊的博客 | Hux Blog”** ，这个就需要SEO Title来定义了。
+我的博客标题是 **“Yuzj Blog”** 但是我想要在搜索的时候显示 **“于子俊的博客 | Yuzj Blog”** ，这个就需要SEO Title来定义了。
 
 其实这个SEO Title就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
