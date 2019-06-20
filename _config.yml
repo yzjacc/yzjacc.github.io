@@ -1,6 +1,6 @@
 # Site settings
-title: Monkey Blog
-SEOTitle: 于子俊的博客 | Monkey Blog
+title: Yuzj Blog
+SEOTitle: 于子俊的博客 | Yuzj Blog
 header-img: img/home-bg.jpg
 email: yzjacc@gmail.com
 description: "关于程序与设计| Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @yzj 的个人博客，与你一起发现更大的世界。"
@@ -112,6 +112,12 @@ friends: [
     },{
         title: "JS MDN",
         href: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript"
+    },{
+        title: "My Music",
+        href: "https://y.qq.com/n/m/detail/taoge/index.html?id=2251239107"
+    },{
+        title: "Guitar",
+        href: "https://github.com/China-12138/Guitar"
     },{
         title: "W3School",
         href: "https://www.w3schools.com/"
