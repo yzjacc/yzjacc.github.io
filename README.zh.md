@@ -1,6 +1,6 @@
-# Hux blog 模板
+# Yuzj blog 模板
 
-### [我的博客在这里 &rarr;](http://huxpro.github.io)
+### [我的博客在这里 &rarr;](https://china-12138.github.io/)
 
 
 ### 关于收到"Page Build Warning"的email
@@ -183,7 +183,7 @@ HTML5幻灯片的排版：
 ```
 ---
 layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
+iframe:     "http://####/js-module-7day/"
 ---
 ```
 
@@ -192,7 +192,7 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 
 #### Comment
 
-博客不仅支持多说[Duoshuo](http://duoshuo.com)评论系统，也支持[Disqus](http://disqus.com)评论系统。
+博客支持[Disqus](http://disqus.com)评论系统。
 
 `Disqus`优点是：国际比较流行，界面也很大气、简介，如果有人评论，还能实时通知，直接回复通知的邮件就行了；缺点是：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://brucezhaor.github.io/about.html) 最下面就可以看到。
 
@@ -230,7 +230,6 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 #### Header Image
 
 标题底图是可以自己选的，看看几篇示例post你就知道如何设置了。在
-  [issue #6 ](https://github.com/Huxpro/huxpro.github.io/issues/6) 中我被问到：怎么样才能让标题底图好看呢？
 
 标题底图的选取完全是看个人的审美了，我也帮不了你。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
 
