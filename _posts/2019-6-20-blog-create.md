@@ -111,13 +111,22 @@ yaml 头文件长这样:
 
 ```
 ---
-layout:     post
-title:      "Hello 2019"
-subtitle:   "Hello World, Hello Blog"
-date:       2019-06-20 12:00:00
-author:     "Yuzj"
-header-img: "img/post-bg-2015.jpg"
-tags:
+layout:      post //布局
+title:      "Hello 2019" //标题
+subtitle:   "Hello World, Hello Blog" //描述
+date:        2019-06-20 12:00:00 //日期
+header-mask: 0.3 /透明度
+catalog:     true //目录
+multilingual:true //语种改变
+mathjax:     ture //数学符号
+iframe:      //HTML5布局
+layout:      keynote//iframe布局
+iframe:     "http://####/js-module-7day/"
+header-img: "img/post-bg-2015.jpg" //标题图片
+lang:        en/ch //语言
+header-img-credit and header-img-credit-href
+nav-style: invert and header-style: text
+tags: //标签
     - Life
 ---
 
