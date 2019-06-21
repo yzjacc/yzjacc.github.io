@@ -57,7 +57,7 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-
+gems: [jekyll-paginate]
 
 # Disqus settings
 disqus_username: yuzijun
