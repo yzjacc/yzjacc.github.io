@@ -111,9 +111,9 @@ yaml 头文件长这样:
 ```
 ---
 layout:     post
-title:      "Hello 2015"
+title:      "Hello 2019"
 subtitle:   "Hello World, Hello Blog"
-date:       2015-01-29 12:00:00
+date:       2019-06-20 12:00:00
 author:     "Yuzj"
 header-img: "img/post-bg-2015.jpg"
 tags:
@@ -244,21 +244,3 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 标题底图的选取完全是看个人的审美了，我也帮不了你。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
 
 但是需要注意的是本模板的标题是**白色**的，所以背景色要设置为**灰色**或者**黑色**，总之深色系就对了。当然你还可以自定义修改字体颜色，总之，用github pages就是可以完全的个性定制自己的博客。
-
-#### SEO Title
-
-我的博客标题是 **“Yuzj Blog”** 但是我想要在搜索的时候显示 **“于子俊的博客 | Yuzj Blog”** ，这个就需要SEO Title来定义了。
-
-其实这个SEO Title就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
-
-## 致谢
-
-1. 这个模板是从这里[IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)  fork 的。 感谢这个作者
-2. 感谢[@BrucZhaoR](https://github.com/BruceZhaoR)的中文翻译 
-
-3. 感谢 Jekyll、Github Pages 和 Bootstrap!
-
-
-
-
-```
