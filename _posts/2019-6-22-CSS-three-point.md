@@ -73,7 +73,7 @@ tags:
 
 上面的级别还是很容易看懂的，但是有时候有些规则是多个级别的组合，像这样
 
-```javascript
+```html
 <!doctype html>
  <html lang="en">
  <head>
@@ -102,9 +102,8 @@ background-COLOR:#0e0;
 
 <body>
 
-    <div class="test
-test2"></div>
-
+    <div class="test test2"></div>
+    
 </body>
 
 </html>
@@ -121,7 +120,7 @@ test2"></div>
 
  
 
-![img](file:///C:/Users/Monkey/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image002.png)
+![img](file:///C:\Users\Monkey\Desktop\Github repo\China-12138.github.io\img\in-post\clip_image002.png)
 
 #### **另外一种理解方式：**
 
