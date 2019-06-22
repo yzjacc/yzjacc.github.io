@@ -87,14 +87,10 @@ tags:
          }
 
 .test.test2{
-
-background-COLOR:#0e0;
-
-            width:100px;
-
-            height: 100px;
-
-        }
+    	 background-COLOR:#0e0;
+      	 width:100px;
+ 		 height: 100px;
+   }
 
 </style>
 
