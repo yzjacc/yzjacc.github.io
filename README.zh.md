@@ -1,6 +1,6 @@
 # Yuzj blog 模板
 
-### [我的博客在这里 &rarr;](https://china-12138.github.io/)
+### [我的博客在这里 &rarr;](https://yzjacc.github.io/)
 
 
 ### 关于收到"Page Build Warning"的email
@@ -84,7 +84,7 @@ SEOTitle: Yuzj Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: china-12138     # 你的github账号
+github_username: yzjacc     # 你的github账号
 weibo_username: yuzijun      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings

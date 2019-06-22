@@ -3,12 +3,12 @@
     "title": "Hux Blog",
     "author": "Hux <huxpro@gmail.com>",
     "version": "1.7.0",
-    "homepage": "http://huxpro.github.io",
+    "homepage": "http://yzjacc.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/china-12138/china-12138.github.io"
+        "url": "https://github.com/yzjacc/yzjacc.github.io"
     },
-    "bugs": "https://china-12138.github.io/issues",
+    "bugs": "https://yzjacc.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",

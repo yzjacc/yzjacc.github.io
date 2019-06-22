@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: yzjacc@gmail.com
 description: "关于程序与设计| Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @yzj 的个人博客，与你一起发现更大的世界。"
 keyword: "于子俊, Monkey于子俊, Mon,于子俊的博客, Mon Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 猴"
-url: "https://china-12138.github.io/"              # your host, for absolute URL
+url: "https://yzjacc.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-github_username:    China-12138
+github_username:    yzjacc
 weibo_username:     yzjpro
 # zhihu_username:     huxpro
 # twitter_username:   huxpro
@@ -117,7 +117,7 @@ friends: [
         href: "https://y.qq.com/n/m/detail/taoge/index.html?id=2251239107"
     },{
         title: "Guitar",
-        href: "https://github.com/China-12138/Guitar"
+        href: "https://github.com/yzjacc/Guitar"
     },{
         title: "W3School",
         href: "https://www.w3schools.com/"
