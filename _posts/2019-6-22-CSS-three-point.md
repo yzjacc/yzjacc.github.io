@@ -116,7 +116,7 @@ tags:
 
  
 
-![img](file:///C:\Users\Monkey\Desktop\Github repo\yzjacc.github.io\img\in-post\clip_image002.png)
+![img](file:///\yzjacc.github.io\img\in-post\clip_image002.png)
 
 #### **另外一种理解方式：**
 
