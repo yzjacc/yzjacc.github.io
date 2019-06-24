@@ -92,7 +92,7 @@ HTML+CSS 代码：
     </body>    
 
 </html>
-```
+```html
 
 效果：
 
@@ -101,7 +101,7 @@ HTML+CSS 代码：
 至于上下的边距，别急，还有更奇怪的，我们往这两个div任意一个里面加点文字
 
 <!DOCTYPE html>
-```html
+​```html
 <html>
 
     <head>
@@ -151,7 +151,7 @@ HTML+CSS 代码：
 
 效果：
 
-![b 目 刂 端 ](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-6-24clip_image004.png)
+![ads](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-6-24/clip_image004.png)
 
 到这就完全摸不着头脑了。
 
@@ -189,8 +189,9 @@ inline-block的基线是正常流中最后一个line box的基线，除非，这
 
 在遇到由vertical-align:baseline造成的各种无法理解的怪异现象，可以直接放大招，废掉基线对齐（比如底线对齐、顶线对齐就很好啊），统一对齐方式。
 
-<!DOCTYPE html>
 ```html
+<!DOCTYPE html>
+
 <html>
 
     <head>
@@ -200,34 +201,33 @@ inline-block的基线是正常流中最后一个line box的基线，除非，这
         <title>浮动定义</title>
 
         <style type="text/css">
+		   div{
 
-            div{
+               border: 1px solid red;
 
-                border: 1px solid red;
+            }
 
-            }
+			.div1 , .div2{
+				
+                width: 100px;
 
-            .div1 , .div2{
+                height: 100px;
 
-                width: 100px;
+                display: inline-block;
 
-                height: 100px;
+                /*- 以下三种方式任意选一种都可以             */
 
-                display: inline-block;
+                vertical-align: top;
 
-                /*- 以下三种方式任意选一种都可以             */
+                /*vertical-align: bottom;
 
-                vertical-align: top;
+                vertical-align: middle;*/
 
-                /*vertical-align: bottom;
+            }
 
-                vertical-align: middle;*/
+        </style>
 
-            }
-
-        </style>
-
-    </head>
+    </head>
 
     <body>
 
@@ -245,4 +245,3 @@ inline-block的基线是正常流中最后一个line box的基线，除非，这
 
 </html>
 ```
-
