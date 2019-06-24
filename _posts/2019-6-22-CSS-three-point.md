@@ -114,9 +114,7 @@ tags:
 
  我们可以把选择器中规则对应做加法，比较权值，如果权值相同那就后面的覆盖前面的了，div.class的权值是1+10=11，而.test1 .test2的权值是10+10=20，所以div会应用.test1 .test2变成绿色
 
- 
-
-![img](file:///\yzjacc.github.io\img\in-post\clip_image002.png)
+![clip_image002](C:\Users\Monkey\Desktop\Github repo\yzjacc.github.io\img\in-post\clip_image002.png)
 
 #### **另外一种理解方式：**
 
