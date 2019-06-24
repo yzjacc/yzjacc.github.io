@@ -55,44 +55,44 @@ HTML+CSS 代码：
 
         <meta charset="UTF-8">
 
-        <title>浮动定义</title>
+        <title>浮动定义</title>
 
-        <style type="text/css">
+        <style type="text/css">
 
-            div{
+            div{
 
-                border: 1px solid red;
+                border: 1px solid red;
 
-            }
+            }
 
-            .div1 , .div2{
+            .div1 , .div2{
 
-                width: 100px;
+                width: 100px;
 
-                height: 100px;
+                height: 100px;
 
-                display: inline-block;
+                display: inline-block;
 
-            }
+            }
 
-        </style>
+        </style>
 
-    </head>
+    </head>
 
-    <body>
+    <body>
 
-        <div class="demo">
+        <div class="demo">
 
-            <div class="div2"></div>
+            <div class="div2"></div>
 
-            <div class="div1"></div>
+            <div class="div1"></div>
 
-        </div>
+        </div>
 
-    </body>    
+    </body>    
 
 </html>
-```html
+```
 
 效果：
 
@@ -100,51 +100,49 @@ HTML+CSS 代码：
 
 至于上下的边距，别急，还有更奇怪的，我们往这两个div任意一个里面加点文字
 
+```html
 <!DOCTYPE html>
-​```html
 <html>
 
-    <head>
+    <head>
 
-        <meta charset="UTF-8">
+        <meta charset="UTF-8">
 
-        <title>浮动定义</title>
+        <title>浮动定义</title>
 
-        <style type="text/css">
+        <style type="text/css">
 
-            div{
+            div{
 
-                border: 1px solid red;
+                border: 1px solid red;
 
-            }
+            }
 
-            .div1 , .div2{
+            .div1 , .div2{
 
-                width: 100px;
+                width: 100px;
 
-                height: 100px;
+                height: 100px;
 
-                display: inline-block;
+                display: inline-block;
 
-            }
+            }
 
-        </style>
+        </style>
 
-    </head>
+    </head>
 
-    <body>
+    <body>
 
-        <div class="demo">
+        <div class="demo">
 
-            <div class="div2">Web前端</div>
+            <div class="div2">Web前端</div>
 
-            <div class="div1"></div>
+            <div class="div1"></div>
 
-        </div>
+        </div>
 
-    </body>
-
-    
+    </body>
 
 </html>
 ```
@@ -240,8 +238,6 @@ inline-block的基线是正常流中最后一个line box的基线，除非，这
         </div>
 
     </body>
-
     
-
 </html>
 ```
