@@ -31,7 +31,7 @@ tags:
 				</style>
 </head>
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -72,7 +72,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -108,7 +108,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -144,7 +144,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <!--圆心(x,y),半径(r),弧度（起始弧度，结束弧度），方向（顺时针，逆时针）-->
   <script>
   		var canvas = document.getElementById("can");
@@ -176,7 +176,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
     	//  B（x，y），C（x，y），圆角大小
   		var canvas = document.getElementById("can");
@@ -215,7 +215,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -255,7 +255,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -294,7 +294,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -332,7 +332,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -368,7 +368,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -404,7 +404,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
@@ -439,7 +439,7 @@ tags:
 </head>
 
 <body>
-  <canvas id="can" width= "500px" height = "300px"></canvas><!--该画板只能在行间样式定义宽高-->
+  <canvas id="can" width="500px" height="300px"></canvas><!--该画板只能在行间样式定义宽高-->
   <script>
   		var canvas = document.getElementById("can");
 			var ctx = canvas.getContext("2d");
