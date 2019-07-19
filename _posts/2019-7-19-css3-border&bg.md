@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「CSS」CSS3的border属性"
+title: "「CSS」CSS3的border&background属性"
 subtitle: " From Yuzj"
 author: "Yuzj"
 header-img: "img/post-bg-web.jpg"
@@ -35,7 +35,7 @@ tags:
 				border-bottom-right-radius: 100px 100px;
 				border-bottom-left-radius:40px 40px;*/
         border-radius:10px 20px 30px 40px/10px 20px 30px 40px;
-        /*前一半是横坐标后一半是纵坐标/
+        /*前一半是横坐标后一半是纵坐标*/
 			}
 ```
 
