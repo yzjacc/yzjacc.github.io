@@ -496,3 +496,5 @@ tags:
     </body>
 ```
 
+### 9.globalCompositeOperation 属性![图片1](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-22/图片1.png)
+
