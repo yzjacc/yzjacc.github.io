@@ -555,5 +555,49 @@ tags:
 
 ```
 
-### 9.globalCompositeOperation 属性![图片1](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-22/图片1.png)
+### 15.globalCompositeOperation 属性
+
+```html
+<DOCYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>title</title>
+      <style>
+        canvas {
+          width: 500px;
+          height: 300px;
+          border: 1px solid;
+        }
+      </style>
+    </head>
+
+    <body>
+      <canvas id="can" width="500px" height="300px"></canvas>
+      <!--该画板只能在行间样式定义宽高-->
+      <script>
+          var c=document.getElementById("myCanvas");
+          var ctx=c.getContext("2d");
+
+          ctx.fillStyle="red";
+          ctx.fillRect(20,20,75,50);
+          ctx.globalCompositeOperation="source-over";
+          ctx.fillStyle="blue";
+          ctx.fillRect(50,50,75,50);
+
+          ctx.fillStyle="red";
+          ctx.fillRect(150,20,75,50);
+          ctx.globalCompositeOperation="destination-over";
+          ctx.fillStyle="blue";
+          ctx.fillRect(180,50,75,50);
+      </script>
+    </body>
+  </html>
+</DOCYPE>
+
+```
+
+### 
+
+### ![图片1](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-22/图片1.png)
 
