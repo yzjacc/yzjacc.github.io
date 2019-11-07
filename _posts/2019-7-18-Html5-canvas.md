@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「HTML」HTML5 新增标签 Canvas "
+title: "「HTML」HTML5 标签篇 Canvas "
 subtitle: " From Yuzj"
 author: "Yuzj"
 header-img: "img/post-bg-web.jpg"
