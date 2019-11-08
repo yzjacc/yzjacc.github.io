@@ -18,28 +18,28 @@ tags:
 书写方式如下
 
 ```css
-			div {
-				width: 200px;
-				height: 100px;
-				border: 1px solid #000;
-				position: absolute;
-				left: calc(50% - 50px);/*减号两边必须加空格*/
-				top: calc(50% - 50px);
-				/* border-radius:50%;
-				border-radius:10px;
-				border-radius :10px 20px 30px 40px;*/
-				/*border-top-left-radius: 10px;
-				border-top-right-radius :20px;
-				border-bottom-right-radius :30px;
-				border-bottom-left-radius :40px;*/
-        /* 下面两个像素是代表切割圆的水平垂直半径长度*/
-				/*border-top-left-radius : 100px 100px;
-				border-top-right-radius: 100px 100px;
-				border-bottom-right-radius: 100px 100px;
-				border-bottom-left-radius:40px 40px;*/
-        /*border-radius:10px 20px 30px 40px/10px 					20px 30px 40px;第一个10px加第二个10px代表左上 				 以此类推	*/
-        /*前一半是横坐标后一半是纵坐标*/
-			}
+  div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    position: absolute;
+    left: calc(50% - 50px); /*减号两边必须加空格*/
+    top: calc(50% - 50px);
+    /* border-radius:50%;
+    border-radius:10px;
+    border-radius :10px 20px 30px 40px;*/
+    /*border-top-left-radius: 10px;
+    border-top-right-radius :20px;
+    border-bottom-right-radius :30px;
+    border-bottom-left-radius :40px;*/
+    /* 下面两个像素是代表切割圆的水平垂直半径长度*/
+    /*border-top-left-radius : 100px 100px;
+    border-top-right-radius: 100px 100px;
+    border-bottom-right-radius: 100px 100px;
+    border-bottom-left-radius:40px 40px;*/
+    /*border-radius:10px 20px 30px 40px/10px 					20px 30px 40px;第一个10px加第二个10px代表左上 				 以此类推	*/
+    /*前一半是横坐标后一半是纵坐标*/
+  }
 ```
 
 ### 2.box-shadow
@@ -54,47 +54,38 @@ box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏�
 
 ```html
 <DOCYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>title</title>
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          background-color: #000;
+        }
+        div {
+          position: absolute;
+          left: calc(50% - 150px);
+          top: calc(50% - 150px);
+          width: 300px;
+          height: 300px;
+          border-radius: 50%;
+          box-shadow: inset 0px 0px 50px #fff, inset 10px 0px 80px #f0f,
+            inset -10px 0px 80px #0ff, inset 10px 0px 300px #f0f,
+            inset -10px 0px 300px #0ff, 0px 0px 50px #fff, -10px 0px 80px #f0f,
+            10px 0px 80px #0ff;
+        }
+      </style>
+    </head>
 
-	<html lang="en">
+    <body>
+      <div></div>
+    </body></html
+></DOCYPE>
 
-	<head>
-
-		<meta charset="utf-8">
-		<title>title</title>
-		<style>
-			* {
-				margin: 0;
-				padding: 0;
-			}
-			body {
-				background-color: #000;
-			}
-			div {
-				position: absolute;
-				left: calc(50% - 150px);
-				top: calc(50% - 150px);
-				width: 300px;
-				height: 300px;
-				border-radius: 50%;
-				box-shadow: inset 0px 0px 50px #fff,
-					inset 10px 0px 80px #f0f,
-					inset -10px 0px 80px #0ff,
-					inset 10px 0px 300px #f0f,
-					inset -10px 0px 300px #0ff,
-					0px 0px 50px #fff,
-					-10px 0px 80px #f0f,
-					10px 0px 80px #0ff;
-			}
-		</style>
-
-	</head>
-
-	<body>
-
-		<div></div>
-	</body>
-
-	</html>
 ```
 
 效果如下
@@ -103,45 +94,39 @@ box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏�
 
 ```html
 <DOCYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>title</title>
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
 
-	<html lang="en">
+        body {
+          background-color: #000;
+        }
 
-	<head>
+        div {
+          position: absolute;
+          left: calc(50% - 25px);
+          top: calc(50% - 25px);
+          width: 50px;
+          height: 50px;
+          background-color: #fff;
+          border-radius: 50%;
 
-		<meta charset="utf-8">
-		<title>title</title>
-		<style>
-			* {
-				margin: 0;
-				padding: 0;
-			}
+          box-shadow: 0px 0px 100px 80px #fff, 0px 0px 250px 180px #ff0;
+        }
+      </style>
+    </head>
 
-			body {
-				background-color: #000;
-			}
+    <body>
+      <div></div>
+    </body></html
+></DOCYPE>
 
-			div {
-				position: absolute;
-				left: calc(50% - 25px);
-				top: calc(50% - 25px);
-				width: 50px;
-				height: 50px;
-				background-color: #fff;
-				border-radius: 50%;
-
-				box-shadow: 0px 0px 100px 80px #fff,
-					0px 0px 250px 180px #ff0;
-			}
-		</style>
-
-	</head>
-
-	<body>
-
-		<div></div>
-	</body>
-
-	</html>
 ```
 
 效果如下
