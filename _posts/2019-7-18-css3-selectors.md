@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「CSS」CSS3选择器(不常用)"
+title: "「CSS」CSS3 选择器介绍"
 subtitle: " From Yuzj"
 author: "Yuzj"
 header-img: "img/post-bg-web.jpg"
@@ -11,11 +11,7 @@ tags:
 - CSS
 ---
 
-
-
 ### 1.Relationship Selectors （关系选择器）
-
-E+F E~F
 
 ```html
 <!DOCTYPE html>
@@ -25,14 +21,15 @@ E+F E~F
 	<meta charset="UTF-8">
 	<title>Document</title>
 		<style>
-			/*E + F*/
-			/*下一个满足条件的兄弟元素节点*/
-			div+.demo {
+			/* E + F */
+			/* 第一个满足条件的兄弟元素节点 */
+			div +.demo {
 				background-color: red;
 			}
 
-			/*E ~ F*/
-			div~p {
+			/* E ~ F */
+      /* 所有满足条件的兄弟元素节点 */
+			div ~ p {
 				background-color: green;
 			}
 		</style>
@@ -50,46 +47,74 @@ E+F E~F
 		</li>
 	</ul>
 </body>
-
-</html>
+  </html>
 ```
-
-![屏幕快照 2019-07-18 下午10.17.08](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-18/屏幕快照 2019-07-18 下午10.17.08.png)
 
 ### 2.Attribute Selectors（属性选择器）
 
-E[attr~=“val”]：存在独立val（valval不可以） 
+```html
+<!DOCTYPE html>
+<htmL lang="en'">
 
-E[attr |=“val”]：val开头或者var-
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+		<style>
+      div[data~="a"]{
+        background-color:red;
+      }
+		</style>
+</head>
 
-E[attr^=“val”]：val开头
+<body>
+	<div class="demo" data="a">data</div>
+	<div>data2</div>
+</body>
+  </html>
+```
 
-E[attr$=“val”]：val结尾
+##### E[attr~=“a”]：
 
- E[attr\*=“val”]：存在val就可以（空格 -都可以）
+存在独立a（a b可以,aa不可以） 
+
+##### E[attr|=“a”]：
+
+a开头或者a-都可以
+
+##### E[attr^=“a”]：
+
+a开头
+
+##### E[attr$=“a”]：
+
+a结尾
+
+##### E[attr\*=“a”]：
+
+存在a就可以（a是 空格 - 都可以）
 
 ### 3.Pseudo-Element Selectors（伪元素选择器）
 
-E::placeholder  只能改变默认字体颜色 （兼容性一般）
+旧版本伪元素选择器可以写一个或者两个冒号 但下面的两个选择器必须写两个
 
-E::selection 字体选中状态下可以改变颜色 （bgcolor color）	
+##### E::placeholder 
+
+只能改变 input 字体颜色 （兼容性一般）
+
+##### E::selection 
+
+字体选中状态下可以改变颜色 （bgcolor color）
 
 ### 4.Pseudo-Classes Selectors（伪类选择器）
-
-E:not(s)：选择没有 s条件 的元素
-
-E:root ： 在html里和html选择器相等 （根标签选择器）一般不写E
-
-E:target ：通过锚点去改变其元素的状态//利用锚点进行页面转换
 
 ```html
 <!DoCTYPE html>
 	<htmL lang="en">
-
 	<head>
 		<meta charset="UTF-8">
 		<title>Document </title>
 		<style>
+      /* body中只能取到宽度 但是root可以取到视口高度 */
 			:root,
 			body {
 				margin: 0;
@@ -115,7 +140,7 @@ E:target ：通过锚点去改变其元素的状态//利用锚点进行页面转
 				background-color: gray;
 			}
 
-			div[id]:not( :target) {
+			div[id]:not(:target) {
 				display: none;
 			}
 
@@ -138,49 +163,98 @@ E:target ：通过锚点去改变其元素的状态//利用锚点进行页面转
 
 	<body>
 		<div class="button-wrapper">
-			<a href="#red" class="bg red">red</a><a href="#green" class="bggreen">
-				green</a>
-			<a href="#gray" class="bggray">gray</a>
+			<a href="#red" class="bg red">red</a>
+      <a href="#green" class="bg green">green</a>
+			<a href="#gray" class="bg gray">gray</a>
 		</div>
-		<div id=" red"></div>
+		<div id="red"></div>
 		<div id="green"></div>
 		<div id="gray"></div>
 	</body>
-
 	</html>
 ```
 
-E:first-child ：所有第一个子元素（子元素是谁 E就写谁）考虑其他元素对自己的影响
+##### E:not(s):
 
-E:last-child ：所有最后一个子元素 考虑其他元素对自己的影响
+选择没有 s条件 的元素
 
-E:only-child：所有兄弟元素中只有该一个元素 考虑其他元素对自己的影响
+##### E:root:
 
-E:nth-child(n)：所有第几个子级元素 css从1开始查数 n是从0开始查 odd奇数 考虑其他元素对自己的影响
+ 在html环境（其他环境不确定）和html选择器相等 （根标签选择器）一般不写E
 
-E:nth-last-child(n) ： 上者取反
+##### E:target:
 
-E:first-of-type ：该E类型第一个元素
+通过锚点去改变其元素的状态//利用锚点进行页面转换
 
-E:last-of-type : 该E类型第一个元素
+#### 不常用
 
-E:only-of-type ：该E类型的仅有的元素
+##### E:first-child:
 
-E:nth-of-type(n) ：找同类型的元素
+所有第一个子元素（子元素是谁 E就写谁 只要是其他元素的子元素 都符合改选择器 考虑其他元素对自己的影响
 
-E:nth-of-last-type(n) ：上者取反
+##### E:last-child:
 
-E:empty ：该E什么都没有的元素（空格算内容，注释不算内容）
+所有最后一个子元素  只要是其他元素的子元素 都符合改选择器 考虑其他元素对自己的影响
 
-E:checked ：改变单选框后的属性
+##### E:only-child: 
 
-E:enabled ：一般在input默认是enabled 可以修改属性
+所有子元素中只有该一个元素 考虑其他元素对自己的影响
 
-E:disabled ：一般直接将disavled加在input 可以修改属性
+#### 常用
 
-E:read-only ：一般直接将readonly加在input value=“文字” 该文字不可以修改
+##### E:nth-child(n):
 
-E:read-write：上者可以修改
+所有第几个子级元素 只要是其他元素的子元素 都符合改选择器 css从1开始查数 n是从0开始递增 odd奇数 even偶数 考虑其他元素对自己的影响（假设第一个子元素不是E元素 第二个是则为E:nth-child(2) ）
+
+##### E:nth-last-child(n):
+
+上者取反 倒着查
+
+##### E:first-of-type:
+
+该E类型第一个元素
+
+##### E:last-of-type:
+
+该E类型第一个元素
+
+##### E:only-of-type:
+
+该E类型的仅有的元素 与only-child不同是 该选择器可以在有多种类型子元素下也可以进行选择
+
+##### E:nth-of-type(n):
+
+找同类型的元素 从第n个开始查起
+
+##### E:nth-of-last-type(n):
+
+上者取反
+
+#### 不常用
+
+##### E:empty:
+
+该E什么都没有的元素（空格算内容，注释不算内容）
+
+##### E:checked:
+
+一般改变单选框后的属性
+
+##### E:enabled:
+
+一般在input默认是enabled 可以修改属性
+
+##### E:disabled:
+
+一般直接将disabled加在input 不可以可以修改属性
+
+##### E:read-only:
+
+一般直接将 readonly 加在input value=“文字” 该文字不可以修改
+
+##### E:read-write:
+
+上者可以修改
 
 
 

@@ -11,7 +11,9 @@ tags:
 - CSS
 ---
 
-### 1.border-radius![屏幕快照 2019-07-19 下午9.24.24](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.24.24.png)
+### 1.border-radius
+
+![屏幕快照 2019-07-19 下午9.24.24](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.24.24.png)
 
 书写方式如下
 
@@ -21,29 +23,34 @@ tags:
 				height: 100px;
 				border: 1px solid #000;
 				position: absolute;
-				Left: calc(50% - 50px);
+				left: calc(50% - 50px);/*减号两边必须加空格*/
 				top: calc(50% - 50px);
-				/*border-radius :50%;
+				/* border-radius:50%;
 				border-radius:10px;
 				border-radius :10px 20px 30px 40px;*/
 				/*border-top-left-radius: 10px;
 				border-top-right-radius :20px;
 				border-bottom-right-radius :30px;
 				border-bottom-left-radius :40px;*/
+        /* 下面两个像素是代表切割圆的水平垂直半径长度*/
 				/*border-top-left-radius : 100px 100px;
 				border-top-right-radius: 100px 100px;
 				border-bottom-right-radius: 100px 100px;
 				border-bottom-left-radius:40px 40px;*/
-        border-radius:10px 20px 30px 40px/10px 20px 30px 40px;
+        /*border-radius:10px 20px 30px 40px/10px 					20px 30px 40px;第一个10px加第二个10px代表左上 				 以此类推	*/
         /*前一半是横坐标后一半是纵坐标*/
 			}
 ```
 
-### 2.box-shadow![屏幕快照 2019-07-19 下午9.35.51](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.35.51.png)
+### 2.box-shadow
 
-box-shadow: 0px 0px 0px 0px #0ff  //外阴影 水平偏移量 垂直偏移量 上下左右扩大像素 以边框为标准模糊值 颜色
+![屏幕快照 2019-07-19 下午9.35.51](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.35.51.png)
 
-box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏移量 上下左右扩大像素 以边框为标准模糊值 颜色
+box-shadow: 0px 0px 0px 0px #0ff  //外阴影 水平偏移量 垂直偏移量 以边框为标准向两侧同时模糊值 上下左右扩大像素 颜色
+
+box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏移量 以边框为标准向两侧同时展开模糊值 上下左右扩大像素 颜色
+
+背景颜色在阴影的下面 文字在阴影的上面
 
 ```html
 <DOCYPE html>
