@@ -150,17 +150,25 @@ box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏�
 
 ### 3.boder-image
 
+该属性直接会覆盖boder-color
+
 #### border-image-source ：
 
-##### 可以引入图片url（）或者渐变色
+##### 可以引入图片url（）或者渐变色（linear-gradient(red,yellow)）
 
-##### border-image-slice ： 只能写数字 （不写默认值100%）![屏幕快照 2019-07-19 下午10.00.57](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.00.57.png)
+#### border-image-slice ： 只能写数字 （不写默认值100%）
+
+![屏幕快照 2019-07-19 下午10.00.57](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.00.57.png)
 
 按照图片分割像素
 
-border-image-slice: 100 100 100 100;(上 右 下 左) fill可以填充内容区
+border-image-slice: 100 100 100 100;(上 右 下 左) fill可以填充内容区 不填写px
 
-#### border-image-width ：默认值1 设置图片背景宽度 如果写auto 会自动取slice的值
+如果默认值100% 也就是说整个图会覆盖该四个角
+
+![屏幕快照 2019-11-08 下午7.12.47](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.12.47.png)
+
+#### border-image-width ：默认值1（倍数） 设置图片背景宽度 如果写auto 会自动取slice的值
 
 #### border-image-outset ：背景边框图片向外延伸
 
@@ -168,21 +176,21 @@ border-image-slice: 100 100 100 100;(上 右 下 左) fill可以填充内容区
 
 ##### stretch默认
 
-#####  ![屏幕快照 2019-07-19 下午10.17.30](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.17.30.png)
+![屏幕快照 2019-07-19 下午10.17.30](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.17.30.png)
 
 ##### round
 
-#####  ![屏幕快照 2019-07-19 下午10.11.58](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.58.png)
+![屏幕快照 2019-07-19 下午10.11.58](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.58.png)
 
 ##### repeat
 
-#####  ![屏幕快照 2019-07-19 下午10.11.25](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.25.png)
+![屏幕快照 2019-07-19 下午10.11.25](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.25.png)
 
 speace
 
 ![屏幕快照 2019-07-19 下午10.13.00](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.13.00.png)
 
-#### border-image：source  slice repeat；
+#### border-image：source slice repeat；
 
 ### 4.background
 
@@ -190,27 +198,78 @@ speace
 
 (可以填渐变色与图片路径）可以进行多个填写 第一个没有加载出来 会加载第二个
 
+background-image:url(./#.jpg),url(./#1.jpg);
+
+##### background-position
+
+（多个背景用逗号隔开）处理背景的位置
+
 ##### background-origin
+
+![屏幕快照 2019-11-08 下午7.52.11](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.52.11.png)
 
 （图片从哪个位置开始加载）border-box padding-box（默认值） content-box
 
 ##### background-clip
 
-（图片从哪个位置截断）border-box（默认值）padding-box content-box text（文字里为背景图片）
+![屏幕快照 2019-11-08 下午7.55.17](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.55.17.png)
+
+（图片从哪个位置截断）border-box（默认值）padding-box content-box 
+
+text（文字里为背景图片）：特殊写法
+
+```html
+-webkit-background-clip:text;
+background-clip:text;
+-webkit-text-fill-color:transparent;
+text-fill-color:transparent;
+```
 
 ##### background-repeat 
 
-round 平铺（拉伸图片） no-repeat speace（不会改变图片） 可以为两个值表示xy
+round 平铺（拉伸图片） no-repeat  speace（不会改变图片，不够宽度就是空格） 可以为两个值表示xy
 
 写repeat-x 默认no-repeat-y
 
 ##### background-attachment
 
- 相对于容器进行定位 默认值默认scroll 相当于平时fix ；local可以跟滚轮滚动 ；fix 相对于视口不动 但是容器外不能显示
+相对于容器进行添加background-position 默认值默认scroll 相当于平时fix相对容器 不相对视口；
+
+local可以跟容器滚轮滚动 ；fix相对于视口不动 但是图片超过容器外 不能显示
 
 ##### background-size
 
 cover 不改变图片比例 填充背景 可能超出
 
 contain 不改变图片比例 填充背景 可能repeat
+
+### 5.linear-gradient / radial-gradient 渐变色
+
+linear-gradient (to right,#0f0 20px,#ff0);
+
+linear-gradient (180deg,#0f0 20%,#ff0);
+
+第一个为圆心 ellipse或者circle 
+
+##### 放射半径到哪里：
+
+closest-corner
+
+close-side
+
+farthest-corner
+
+farthest-side
+
+例子 circle-close-side
+
+radial-gradient (circle-close-side at right bottom,#0f0 20%,green 40px,#ff0 40%);
+
+### 6.hsla处理颜色
+
+hsla（360，50%，50%，5）；
+
+### 7.当不设置border-color时 默认等于currentcolor currentcolor会去取color的值
+
+
 
