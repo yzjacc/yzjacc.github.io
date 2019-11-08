@@ -44,7 +44,7 @@ less/sass/cssNext（插件）
 
 cssNext（用来实现一些未来的标准 未完全在各大浏览器实现的 ）
 
-```css
+```html
 <!-- :root在html中相当于html -->
 :root{ 
   --headline-color:#333; 
@@ -57,7 +57,7 @@ cssNext（用来实现一些未来的标准 未完全在各大浏览器实现的
 
 sass：
 
-```css
+```html
 $font-stack:arail,...; 
 $mysituation-color: #444; 
 div{ 
