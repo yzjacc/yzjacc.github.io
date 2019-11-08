@@ -16,38 +16,38 @@ tags:
 ```html
 <!DOCTYPE html>
 <htmL lang="en'">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      /* E + F */
+      /* 第一个满足条件的兄弟元素节点 */
+      div + .demo {
+        background-color: red;
+      }
 
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-		<style>
-			/* E + F */
-			/* 第一个满足条件的兄弟元素节点 */
-			div +.demo {
-				background-color: red;
-			}
-
-			/* E ~ F */
+      /* E ~ F */
       /* 所有满足条件的兄弟元素节点 */
-			div ~ p {
-				background-color: green;
-			}
-		</style>
-</head>
+      div ~ p {
+        background-color: green;
+      }
+    </style>
+  </head>
 
-<body>
-	<div>div</div>
-	<span class="demo">234</span>
-	<p class="demo">1</p>
-	<p>2</p>
-	<p>3</p>
-	<ul>
-		<li>
-			<p>4</p>
-		</li>
-	</ul>
-</body>
-  </html>
+  <body>
+    <div>div</div>
+    <span class="demo">234</span>
+    <p class="demo">1</p>
+    <p>2</p>
+    <p>3</p>
+    <ul>
+      <li>
+        <p>4</p>
+      </li>
+    </ul>
+  </body>
+</htmL>
+
 ```
 
 ### 2.Attribute Selectors（属性选择器）
@@ -55,22 +55,22 @@ tags:
 ```html
 <!DOCTYPE html>
 <htmL lang="en'">
-
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-		<style>
-      div[data~="a"]{
-        background-color:red;
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      div[data~="a"] {
+        background-color: red;
       }
-		</style>
-</head>
+    </style>
+  </head>
 
-<body>
-	<div class="demo" data="a">data</div>
-	<div>data2</div>
-</body>
-  </html>
+  <body>
+    <div class="demo" data="a">data</div>
+    <div>data2</div>
+  </body>
+</htmL>
+
 ```
 
 ##### E[attr~=“a”]：
@@ -108,70 +108,71 @@ a结尾
 ### 4.Pseudo-Classes Selectors（伪类选择器）
 
 ```html
-<!DoCTYPE html>
-	<htmL lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Document </title>
-		<style>
+<!DOCTYPE html>
+<htmL lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
       /* body中只能取到宽度 但是root可以取到视口高度 */
-			:root,
-			body {
-				margin: 0;
-				height: 100%;
-			}
+      :root,
+      body {
+        margin: 0;
+        height: 100%;
+      }
 
-			#red,
-			#green,
-			#gray {
-				height: 100%;
-				width: 100%;
-			}
+      #red,
+      #green,
+      #gray {
+        height: 100%;
+        width: 100%;
+      }
 
-			#red {
-				background-color: #f20;
-			}
+      #red {
+        background-color: #f20;
+      }
 
-			#green {
-				background-color: green;
-			}
+      #green {
+        background-color: green;
+      }
 
-			#gray {
-				background-color: gray;
-			}
+      #gray {
+        background-color: gray;
+      }
 
-			div[id]:not(:target) {
-				display: none;
-			}
+      div[id]:not(:target) {
+        display: none;
+      }
 
-			div.button-wrapper {
-				position: absolute;
-				width: 600px;
-				top: 400px;
-			}
+      div.button-wrapper {
+        position: absolute;
+        width: 600px;
+        top: 400px;
+      }
 
-			div.button-wrapper a {
-				text-decoration: none;
-				color: #fff;
-				background-color: #fcc;
-				font-size: 30px;
-				border-radius: 3px;
-				margin: 0 10px;
-			}
-		</style>
-	</head>
+      div.button-wrapper a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #fcc;
+        font-size: 30px;
+        border-radius: 3px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
 
-	<body>
-		<div class="button-wrapper">
-			<a href="#red" class="bg red">red</a>
+  <body>
+    <div class="button-wrapper">
+      <a href="#red" class="bg red">red</a>
       <a href="#green" class="bg green">green</a>
-			<a href="#gray" class="bg gray">gray</a>
-		</div>
-		<div id="red"></div>
-		<div id="green"></div>
-		<div id="gray"></div>
-	</body>
-	</html>
+      <a href="#gray" class="bg gray">gray</a>
+    </div>
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="gray"></div>
+  </body>
+</html>
+
 ```
 
 ##### E:not(s):
