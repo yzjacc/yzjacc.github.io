@@ -45,28 +45,28 @@ less/sass/cssNext（插件）
 cssNext（用来实现一些未来的标准 未完全在各大浏览器实现的 ）
 
 ```css
- <!-- :root在html中相当于html -->
-:root{
-		--headline-color:#333;
+<!-- :root在html中相当于html -->
+:root{ 
+  --headline-color:#333; 
 }
 @custom-selector: --healine h1,h2,h3,h4,h5;
-:--healine {
-	color:var( --headline-color );
+:--healine { 
+  color:var( --headline-color ); 
 }
 ```
 
 sass：
 
 ```css
-$font-stack:arail,...;
-$mysituation-color: #444;
-div{
-   span{
-			color: $mysituation-color;
-        p{
-          font:100% $font-stack;
-     		}
-   }
+$font-stack:arail,...; 
+$mysituation-color: #444; 
+div{ 
+  span{ 
+    color:$mysituation-color; 
+    p{ 
+      font:100% $font-stack;
+    } 
+  } 
 }
 ```
 
@@ -77,13 +77,12 @@ div{
 autoprefixer：后处理器的插件
 
 ```html
-div{
-		border-radius: ;
-}
-div{
-		border-radius: ; 
-		-webkit-border-radius: ;
-		-moz-border-radius: ;
+div { 
+  border-radius: ; 
+} 
+div { border-radius: ; 
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
 }
 ```
 
