@@ -13,7 +13,7 @@ tags:
 
 CSS3 可以将文本内容设计成像报纸一样的多列布局。像下面这样：
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/6482.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/6482.png)
 
 这样的布局称为“多列布局”。
 
@@ -35,7 +35,7 @@ div {
 
 通过测试，firefox(version 49.0.1) 需要添加 -moz- 前缀，chrome，opera，safari，不需要添加 -webkit- 前缀也能正常显示，ie10+，edge 不需要添加前缀能正常显示。将页面缩小后(不缩小时由于文本字数不够，只显示两列)显示效果：
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012170355531-1117132674.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012170355531-1117132674.png)
 
  
 
@@ -55,7 +55,7 @@ div {
 }
 ```
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012171341437-1007051741.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012171341437-1007051741.png)
 
  
 
@@ -87,7 +87,7 @@ div {
 
 
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012173247875-731014877.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012173247875-731014877.png)
 
 (2). 省略 color(默认为 rbg(0,0,0))
 
@@ -104,7 +104,7 @@ div {
 }
 ```
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012173604078-36544294.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012173604078-36544294.png)
 
 (3). width 和 color 两者都省略
 
@@ -119,7 +119,7 @@ div {
 }
 ```
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012173821312-1531762192.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012173821312-1531762192.png)
 
  
 
@@ -146,7 +146,7 @@ h2 {
 
 
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012203430687-1204780521.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012203430687-1204780521.png)
 
 与其他属性不同，column-span 是用在子元素上，表示跨越多少列，好像表格中 col-span 属性一样。因为用的值是 1，而不是 all，所以 firefox 浏览器中的显示效果和其它浏览器一样。
 
@@ -166,7 +166,7 @@ div {
 }
 ```
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012204358609-773879917.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012204358609-773879917.png)
 
 这个属性要求比较多：列数与宽度的乘积(column-count * column-width)应该要小于页面的宽度，才能展示想要的四列效果。当文本字数比较少，页面又比较宽时，就显示不了四列，可能只有三列或更少。
 
@@ -198,19 +198,19 @@ div {
 
 显示为 4 列：
 
-![img](/https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012212835171-1265803493.png)
+![img](/https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012212835171-1265803493.png)
 
 显示为 3 列：
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012212905687-1069952213.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012212905687-1069952213.png)
 
 显示为 2 列：
 
-![img](/https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012212937203-1170865178.png)
+![img](/https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012212937203-1170865178.png)
 
 显示为 1 列：
 
-![img](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-20/1032021-20161012212959812-2078319533.png)
+![img](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-20/1032021-20161012212959812-2078319533.png)
 
 总结：那么这个合写属性就可以理解为(还是假设每列之间的间距为 0)：当元素可用宽度很小时，它只显示 1 列；当元素的可用宽度不小于 count * 2 它就显示 2 列；当元素的可用宽度不小于 count * 3 时，它就显示 3 列；依此规则类推，至到元素的可用宽度不小于 count * width 时，就显示为 width 列。
 
