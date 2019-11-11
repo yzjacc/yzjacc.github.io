@@ -204,11 +204,13 @@ background-image:url(./#.jpg),url(./#1.jpg);
 text（文字里为背景图片）：特殊写法
 
 ```html
--webkit-background-clip:text;<!-- 划重点 一旦设置该属性 文字会变为背景的一部分 -->
+-webkit-background-clip:text;<!-- 划重点 一旦设置该属性 文字会变为背景的一部分 效果如下图 -->
 background-clip:text;
 -webkit-text-fill-color:transparent;
 text-fill-color:transparent;
 ```
+
+![屏幕快照 2019-11-10 下午2.37.33](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-21/屏幕快照 2019-11-10 下午2.37.33.png)
 
 ##### background-repeat 
 
