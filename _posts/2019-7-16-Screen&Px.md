@@ -11,7 +11,17 @@ tags:
 - Basic
 ---
 
-哈哈刚刚经历完多科考试 今天我们来聊聊Screen与Px问题
+Cpu **擅长逻辑运算**
+
+Gpu **擅长高精度浮点运算** 专业绘制方法是用点绘制的 而家用的一般是以多边形绘制  
+
+浏览器渲染过程
+
+![ ](/Users/yuzijun/Desktop/屏幕快照 2019-11-12 下午6.39.53.png)
+
+![屏幕快照 2019-11-12 下午6.40.02](/Users/yuzijun/Desktop/屏幕快照 2019-11-12 下午6.40.02.png)今天我们来聊聊Screen与Px问题
+
+will-change：transfrom //提醒浏览器 加速该属性
 
 ##### 空间混合法  
 
@@ -68,3 +78,16 @@ tags:
 我们也管css编程的逻辑像素方式 叫做逻辑屏幕
 
 Ps：分辨率 在固定宽高下 展示的像素点数。所以在不知道宽高的情况下 想判断屏幕细腻与否请关注ppi哦！
+
+
+
+##### 模拟移动端的meta
+
+​    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+width： 可视区宽度
+device-width:  设备宽度
+minimum-scale： 最小缩放比
+maximum-scale： 最大缩放比
+user-scalable： 是否允许用户缩放
+Css像素根据设备像素进行计算  1css 像素  == 1 是设备像素    设备的分辨率  dpi值来计算css像素真正展现的大小
+适配各种不同分辨率的设备
