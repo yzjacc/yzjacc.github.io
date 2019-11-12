@@ -1,14 +1,16 @@
-> layout: post
-> title: "「CSS」转 CSS3的animation属性"
-> subtitle: " From 博客园"
-> author: "Yuzj"
-> header-img: "img/post-bg-web.jpg"
-> header-mask: 0.3
-> catalog: true
-> tags:
->
-> - CSS3
-> - CSS
+---
+layout: post
+title: "「CSS」转 CSS3的animation属性"
+subtitle: " From 博客园"
+author: "Yuzj"
+header-img: "img/post-bg-web.jpg"
+header-mask: 0.3
+catalog: true
+tags:
+
+- CSS3
+- CSS
+---
 
 # 深入理解CSS动画animation
 
