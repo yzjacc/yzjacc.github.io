@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「CSS」转 CSS3的 transform(2d) 属性"
+title: "「CSS」转 CSS3的 transform(3d) 属性"
 subtitle: " From 博客园"
 author: "Yuzj"
 header-img: "img/post-bg-web.jpg"
@@ -46,7 +46,7 @@ tags:
 
 ![perspactive0](https://pic.xiaohuochai.site/blog/CSS_render_perspactive0.jpg)
 
-![屏幕快照 2019-11-12 下午5.24.48](/Users/yuzijun/Desktop/屏幕快照 2019-11-12 下午5.24.48.png)
+![屏幕快照 2019-11-12 下午5.24.48](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-11-12/屏幕快照 2019-11-12 下午5.24.48.png)
 
 **透视距离**
 
