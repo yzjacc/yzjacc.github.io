@@ -11,7 +11,7 @@ tags:
 - HTML5
 ---
 
-### 1.利用canvas画线
+### 利用canvas画线
 
 ```html
 <DOCYPE html>
@@ -51,7 +51,7 @@ tags:
 </DOCYPE>
 ```
 
-### 2.利用canvas画矩形
+### 利用canvas画矩形
 
 ```html
 <DOCYPE html>
@@ -89,7 +89,7 @@ tags:
 </DOCYPE>
 ```
 
-### 3.利用canvas方块下落
+### 利用canvas方块下落
 
 ```html
 <DOCYPE html>
@@ -124,7 +124,7 @@ tags:
 </DOCYPE>
 ```
 
-### 4.利用canvas画 弧形 圆形
+### 利用canvas画 弧形 圆形
 
 ```html
 <!DOCTYPE html>
@@ -155,7 +155,7 @@ tags:
 
 ```
 
-### 5.利用canvas画圆角矩形
+### 利用canvas画圆角矩形
 
 ```html
 <!DOCTYPE html>
@@ -194,7 +194,7 @@ tags:
 
 ![屏幕快照 2019-07-18 下午3.25.50](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-07-18 下午3.25.50.png)
 
-### 6.利用canvas画贝塞尔曲线
+### 利用canvas画贝塞尔曲线
 
 ```html
 <DOCYPE html>
@@ -239,7 +239,7 @@ tags:
 
 ![屏幕快照 2019-11-07 下午5.25.14](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.25.14.png)
 
-### 7.利用canvas坐标平移旋转与缩放
+### 利用canvas坐标平移旋转与缩放
 
 ```html
 <DOCYPE html>
@@ -280,7 +280,7 @@ tags:
 
 ```
 
-### 8.利用canvas坐标save与restore
+### 利用canvas坐标save与restore
 
 ```html
 <DOCYPE html>
@@ -320,7 +320,7 @@ tags:
 </DOCYPE>
 ```
 
-### 9.利用canvas进行背景填充
+### 利用canvas进行背景填充
 
 ```html
 <DOCYPE html>
@@ -362,7 +362,7 @@ tags:
 
 ```
 
-### 10.利用canvas线性渐变
+### 利用canvas线性渐变
 
 ```html
 <DOCYPE html>
@@ -400,7 +400,7 @@ tags:
 
 ```
 
-### 11.利用canvas辐射渐变
+### 利用canvas辐射渐变
 
 ```html
 <DOCYPE html>
@@ -440,7 +440,7 @@ tags:
 
 ![屏幕快照 2019-11-07 下午5.48.59](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.48.59.png)
 
-### 12.利用canvas阴影
+### 利用canvas阴影
 
 ```html
 <DOCYPE html>
@@ -476,7 +476,7 @@ tags:
 
 ```
 
-### 13.利用canvas渲染文字
+### 利用canvas渲染文字
 
 ```html
 <DOCYPE html>
@@ -512,7 +512,7 @@ tags:
 
 ```
 
-### 14.利用canvas线端样式
+### 利用canvas线端样式
 
 ```html
 <DOCYPE html>
@@ -555,7 +555,7 @@ tags:
 
 ```
 
-### 15.globalCompositeOperation 属性
+### globalCompositeOperation 属性
 
 ```html
 <DOCYPE html>

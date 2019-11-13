@@ -11,7 +11,7 @@ tags:
 - CSS
 ---
 
-### 1.Relationship Selectors （关系选择器）
+### Relationship Selectors （关系选择器）
 
 ```html
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ tags:
 
 ```
 
-### 2.Attribute Selectors（属性选择器）
+### Attribute Selectors（属性选择器）
 
 ```html
 <!DOCTYPE html>
@@ -93,7 +93,7 @@ a结尾
 
 存在a就可以（a是 空格 - 都可以）
 
-### 3.Pseudo-Element Selectors（伪元素选择器）
+### Pseudo-Element Selectors（伪元素选择器）
 
 旧版本伪元素选择器可以写一个或者两个冒号 但下面的两个选择器必须写两个
 
@@ -105,7 +105,7 @@ a结尾
 
 字体选中状态下可以改变颜色 （bgcolor color）
 
-### 4.Pseudo-Classes Selectors（伪类选择器）
+### Pseudo-Classes Selectors（伪类选择器）
 
 ```html
 <!DOCTYPE html>

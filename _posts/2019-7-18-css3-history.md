@@ -11,7 +11,7 @@ tags:
 - CSS
 ---
 
-### 1.css3历史
+### css3历史
 
 css2 演化为- - > css3（提出了新的标准）
 
@@ -36,7 +36,7 @@ reference manual website: http://css.doyoe.com
 
 Authoritative inquiry website : http://www.caniuse.com
 
-### 2.预处理器 pre-processor
+### 预处理器 pre-processor
 
 定义了一套语法规则 根据该语法规则编写 后生成css规范编码形式（方便编写代码）
 
@@ -72,7 +72,7 @@ div{
 
 
 
-### 3.后处理器 post-processor
+### 后处理器 post-processor
 
 autoprefixer：后处理器的插件
 
@@ -90,7 +90,7 @@ div { border-radius: ;
 
 其实相同的功能 预处理器也可以做 但是假如有一天都不需要加前缀时 可以直接撤掉后处理器 这样可维护性较强
 
-### 4.possCss（工具）
+### possCss（工具）
 
 用js实现的css的抽象的语法树 AST（Abstract Syntax Tree）
 

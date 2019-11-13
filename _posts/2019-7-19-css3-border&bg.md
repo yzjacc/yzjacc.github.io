@@ -11,7 +11,7 @@ tags:
 - CSS
 ---
 
-### 1.border-radius
+### border-radius
 
 ![屏幕快照 2019-07-19 下午9.24.24](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.24.24.png)
 
@@ -42,7 +42,7 @@ tags:
   }
 ```
 
-### 2.box-shadow
+### box-shadow
 
 ![屏幕快照 2019-07-19 下午9.35.51](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.35.51.png)
 
@@ -177,7 +177,7 @@ speace
 
 #### border-image：source slice repeat；
 
-### 4.background
+### background
 
 ##### background-image  
 
@@ -230,7 +230,7 @@ cover 不改变图片比例 填充背景 可能超出
 
 contain 不改变图片比例 填充背景 可能repeat
 
-### 5.linear-gradient / radial-gradient 渐变色
+### linear-gradient / radial-gradient 渐变色
 
 linear-gradient (to right,#0f0 20px,#ff0);
 
@@ -252,11 +252,11 @@ farthest-side
 
 radial-gradient (circle-close-side at right bottom,#0f0 20%,green 40px,#ff0 40%);
 
-### 6.hsla处理颜色
+### hsla处理颜色
 
 hsla（360，50%，50%，5）；
 
-### 7.当不设置border-color时 默认等于currentcolor currentcolor会去取color的值
+### 当不设置border-color时 默认等于currentcolor currentcolor会去取color的值
 
 
 
