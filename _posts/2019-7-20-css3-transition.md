@@ -1,5 +1,5 @@
 ---
-layout: post
+ layout: post
 title: "「CSS」转 CSS3的transition属性"
 subtitle: " From 博客园"
 author: "Yuzj"
