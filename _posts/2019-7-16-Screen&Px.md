@@ -17,7 +17,7 @@ tags:
 
 正常来讲我们所接触的所有颜色从视觉角度都是由三原色(rgb)即红绿蓝构成
 
-那么![WeChat4e34aa4f1145e14346ac597d9c1bb540](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-16/WeChat4e34aa4f1145e14346ac597d9c1bb540.png)
+那么![WeChat4e34aa4f1145e14346ac597d9c1bb540](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-16/WeChat4e34aa4f1145e14346ac597d9c1bb540.png)
 
 
 
@@ -29,7 +29,7 @@ tags:
 
 ##### 像点
 
-![屏幕快照 2019-07-16 下午9.49.05](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午9.49.05.png)
+![屏幕快照 2019-07-16 下午9.49.05](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午9.49.05.png)
 
 其实每个像素都由这三个像点组成 每个像点的三原色的不同强度调整 致使人的视觉产生误差 已经不能识别到其中一个像点的消失 导致颜色的改变。
 
@@ -37,19 +37,19 @@ tags:
 
 说到屏幕不得不说我们上古时期的大头娃娃
 
-![屏幕快照 2019-07-16 下午9.54.07](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午9.54.07.png)
+![屏幕快照 2019-07-16 下午9.54.07](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午9.54.07.png)
 
 它的发光原理如上图，电子枪通过高束通过荫罩打击到荧光粉上，不同颜色的荧光粉发光 导致像素点颜色的改变。那么荫罩的作用即是防止电子枪发射光束时导致光束发散而影响其他光束。ps：像叶子的当然是我们看的屏幕了
 
 ##### LCD液晶屏（led）
 
-![屏幕快照 2019-07-16 下午9.58.00](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午9.58.00.png)
+![屏幕快照 2019-07-16 下午9.58.00](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午9.58.00.png)
 
 图有些乱哈，左侧是两个通电板夹住液晶。液晶顾名思义就是在特殊状态下可以由液体与固体相互转化。通过状态的转化导致光偏折或者通过，再经过滤光片(也是拥有红绿蓝三种颜色)通过空间混色法， 导致屏幕成像。
 
 ##### 像素的大小（点距）
 
-![屏幕快照 2019-07-16 下午10.06.17](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午10.06.17.png)
+![屏幕快照 2019-07-16 下午10.06.17](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-16/屏幕快照 2019-07-16 下午10.06.17.png)
 
 上图与刚开始的栅格版是异曲同工的 只是表达形式不同。我们把每个三角形作为一个像素。是其实像素的大小是不太好求的，但是我们一般都用点距表示。也就是说两个相同颜色的像点之间的距离。通常我们利用点距的大小来表达成像的细腻程度。
 

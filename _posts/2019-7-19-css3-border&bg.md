@@ -13,7 +13,7 @@ tags:
 
 ### 1.border-radius
 
-![屏幕快照 2019-07-19 下午9.24.24](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.24.24.png)
+![屏幕快照 2019-07-19 下午9.24.24](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.24.24.png)
 
 书写方式如下
 
@@ -44,7 +44,7 @@ tags:
 
 ### 2.box-shadow
 
-![屏幕快照 2019-07-19 下午9.35.51](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.35.51.png)
+![屏幕快照 2019-07-19 下午9.35.51](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.35.51.png)
 
 box-shadow: 0px 0px 0px 0px #0ff  //外阴影 水平偏移量 垂直偏移量 以边框为标准向两侧同时模糊值 上下左右扩大像素 颜色
 
@@ -90,7 +90,7 @@ box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏�
 
 效果如下
 
-![屏幕快照 2019-07-19 下午9.48.54](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.48.54.png)
+![屏幕快照 2019-07-19 下午9.48.54](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.48.54.png)
 
 ```html
 <DOCYPE html>
@@ -131,7 +131,7 @@ box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏�
 
 效果如下
 
-![屏幕快照 2019-07-19 下午9.53.54](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.53.54.png)
+![屏幕快照 2019-07-19 下午9.53.54](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午9.53.54.png)
 
 ### 3.boder-image
 
@@ -143,7 +143,7 @@ box-shadow:insert  0px 0px 0px 0px #0ff  //内阴影 水平偏移量 垂直偏�
 
 #### border-image-slice ： 只能写数字 （不写默认值100%）
 
-![屏幕快照 2019-07-19 下午10.00.57](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.00.57.png)
+![屏幕快照 2019-07-19 下午10.00.57](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.00.57.png)
 
 按照图片分割像素
 
@@ -151,7 +151,7 @@ border-image-slice: 100 100 100 100;(上 右 下 左) fill可以填充内容区 
 
 如果默认值100% 也就是说整个图会覆盖该四个角
 
-![屏幕快照 2019-11-08 下午7.12.47](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.12.47.png)
+![屏幕快照 2019-11-08 下午7.12.47](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.12.47.png)
 
 #### border-image-width ：默认值1（倍数） 设置图片背景宽度 如果写auto 会自动取slice的值
 
@@ -161,19 +161,19 @@ border-image-slice: 100 100 100 100;(上 右 下 左) fill可以填充内容区 
 
 ##### stretch默认
 
-![屏幕快照 2019-07-19 下午10.17.30](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.17.30.png)
+![屏幕快照 2019-07-19 下午10.17.30](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.17.30.png)
 
 ##### round
 
-![屏幕快照 2019-07-19 下午10.11.58](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.58.png)
+![屏幕快照 2019-07-19 下午10.11.58](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.58.png)
 
 ##### repeat
 
-![屏幕快照 2019-07-19 下午10.11.25](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.25.png)
+![屏幕快照 2019-07-19 下午10.11.25](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.11.25.png)
 
 speace
 
-![屏幕快照 2019-07-19 下午10.13.00](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.13.00.png)
+![屏幕快照 2019-07-19 下午10.13.00](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-07-19 下午10.13.00.png)
 
 #### border-image：source slice repeat；
 
@@ -191,20 +191,20 @@ background-image:url(./#.jpg),url(./#1.jpg);
 
 ##### background-origin
 
-![屏幕快照 2019-11-08 下午7.52.11](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.52.11.png)
+![屏幕快照 2019-11-08 下午7.52.11](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.52.11.png)
 
 （图片从哪个位置开始加载）border-box padding-box（默认值） content-box
 
 ##### background-clip
 
-![屏幕快照 2019-11-08 下午7.55.17](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.55.17.png)
+![屏幕快照 2019-11-08 下午7.55.17](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-19/屏幕快照 2019-11-08 下午7.55.17.png)
 
 （图片从哪个位置截断）border-box（默认值）padding-box content-box 
 
 text（文字里为背景图片）：特殊写法
 
 ```html
--webkit-background-clip:text;<!-- 划重点 一旦设置该属性 文字会变为背景的一部分 -->
+-webkit-background-clip:text;
 background-clip:text;
 -webkit-text-fill-color:transparent;
 text-fill-color:transparent;

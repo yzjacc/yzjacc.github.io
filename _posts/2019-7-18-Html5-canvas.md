@@ -192,7 +192,7 @@ tags:
 
 ```
 
-![屏幕快照 2019-07-18 下午3.25.50](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-07-18 下午3.25.50.png)
+![屏幕快照 2019-07-18 下午3.25.50](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-18/屏幕快照 2019-07-18 下午3.25.50.png)
 
 ### 6.利用canvas画贝塞尔曲线
 
@@ -233,11 +233,11 @@ tags:
 
 几个点的匀速运动 画出的曲线
 
-![屏幕快照 2019-11-07 下午5.23.27](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.23.27.png)
+![屏幕快照 2019-11-07 下午5.23.27](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.23.27.png)
 
-![屏幕快照 2019-11-07 下午5.25.02](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.25.02.png)
+![屏幕快照 2019-11-07 下午5.25.02](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.25.02.png)
 
-![屏幕快照 2019-11-07 下午5.25.14](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.25.14.png)
+![屏幕快照 2019-11-07 下午5.25.14](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.25.14.png)
 
 ### 7.利用canvas坐标平移旋转与缩放
 
@@ -438,7 +438,7 @@ tags:
 
 ```
 
-![屏幕快照 2019-11-07 下午5.48.59](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.48.59.png)
+![屏幕快照 2019-11-07 下午5.48.59](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-18/屏幕快照 2019-11-07 下午5.48.59.png)
 
 ### 12.利用canvas阴影
 
@@ -599,5 +599,5 @@ tags:
 
 ### 
 
-### ![图片1](https://pg12138.oss-cn-beijing.aliyuncs.com/img/in-post/2019-7-22/图片1.png)
+### ![图片1](https://github.com/yzjacc/yzjacc.github.io/raw/master/img/in-post/2019-7-22/图片1.png)
 
