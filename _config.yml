@@ -123,3 +123,5 @@ friends: [
         href: "https://www.w3schools.com/"
     }
 ]
+
+theme: jekyll-theme-cayman
